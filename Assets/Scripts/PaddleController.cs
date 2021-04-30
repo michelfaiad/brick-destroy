@@ -16,7 +16,6 @@ public class PaddleController : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (GameManager.isGameStarted())
